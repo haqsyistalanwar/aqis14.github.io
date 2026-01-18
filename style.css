@@ -1,0 +1,129 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font: 16px/28px Arial, sans-serif;
+    background-color: rgb(4, 40, 75);
+    color: #232323;
+}
+
+/* CONTAINER (KOTAK UTAMA — INI YANG BIKIN GEDE) */
+.container {
+    max-width: 1200px;     /* 🔥 GEDE DI SINI BRAYY */
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* HEADER */
+.header {
+    padding-bottom: 20px;
+}
+
+.judul {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header ul {
+    margin-top: 20px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 5px 10px;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 5px;
+}
+
+/* HERO */
+.hero {
+    height: 200px; /* 🔥 hero lebih kecil & rapi */
+    background-image: url("img/hero.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+/* CONTENT */
+.content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.penulis {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+/* FORM */
+.form-joki {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e40af;
+}
+
+/* NOTE */
+.note {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+    text-align: center;
+}
